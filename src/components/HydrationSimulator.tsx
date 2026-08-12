@@ -208,7 +208,7 @@ export const HydrationSimulator: React.FC<HydrationSimulatorProps> = ({ onCursor
             </h2>
           </div>
           <p className="text-gray-400 font-mono text-xs max-w-md mt-4 md:mt-0">
-            Drag the slider or click <span className="text-emerald-400 font-bold">Auto-Hydrate</span> to witness how TERRA-BLOCK™ expands from a compact 5kg brick into 75 Liters of premium fluffy substrate.
+            Drag the slider or click <span className="text-emerald-400 font-bold">Auto-Hydrate</span> to witness how KEXCO-BLOCK™ expands from a compact 5kg brick into 75 Liters of premium fluffy substrate.
           </p>
         </div>
 

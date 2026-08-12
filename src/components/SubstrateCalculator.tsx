@@ -44,7 +44,7 @@ export const SubstrateCalculator: React.FC<SubstrateCalculatorProps> = ({ onOpen
             </h2>
           </div>
           <p className="text-gray-400 font-mono text-xs max-w-md mt-4 md:mt-0">
-            Estimate exact 5kg TERRA-BLOCK™ requirements, hydration water savings, and container shipping loads for your commercial greenhouse operation.
+            Estimate exact 5kg KEXCO-BLOCK™ requirements, hydration water savings, and container shipping loads for your commercial greenhouse operation.
           </p>
         </div>
 

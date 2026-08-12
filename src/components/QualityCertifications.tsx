@@ -24,7 +24,7 @@ export const QualityCertifications: React.FC<QualityCertificationsProps> = ({ on
             </h2>
           </div>
           <p className="text-gray-400 font-mono text-xs max-w-md mt-4 md:mt-0">
-            Every batch of TERRACOCO® coir undergoes rigorous laboratory testing for electrical conductivity (EC), pH stability, sodium levels, and heavy metal screening.
+            Every batch processed by <strong className="text-white">KEXCO® (Kerala Exporting Company)</strong> undergoes rigorous laboratory testing for electrical conductivity (EC), pH stability, sodium levels, and heavy metal screening.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ export const QualityCertifications: React.FC<QualityCertificationsProps> = ({ on
               SA
             </div>
             <h3 className="text-lg font-bold text-white">SA8000 Social Ethic</h3>
-            <p className="text-xs text-gray-400">Ensuring fair wages, safe working conditions, and ethical harvesting across coconut farms.</p>
+            <p className="text-xs text-gray-400">Ensuring fair wages, safe working conditions, and ethical harvesting across Kerala coconut farms.</p>
             <span className="font-mono text-[10px] text-blue-400 block uppercase">STATUS: VERIFIED ACTIVE</span>
           </div>
 
@@ -103,13 +103,13 @@ export const QualityCertifications: React.FC<QualityCertificationsProps> = ({ on
           <div className="lg:col-span-8 space-y-4">
             <div className="flex items-center gap-2 font-mono text-xs text-emerald-400">
               <FileText className="w-4 h-4" />
-              <span>BATCH NO: #TR-2026-0812-EC</span>
+              <span>BATCH NO: #KEXCO-2026-0813-EC</span>
             </div>
             <h3 className="text-2xl font-bold text-white">
               Download Official Batch Analysis Certificate
             </h3>
             <p className="text-sm text-gray-400">
-              Access complete inductively coupled plasma (ICP) spectrometry results, heavy metal assays, and EC electrical conductivity curves for recent container shipments.
+              Access complete inductively coupled plasma (ICP) spectrometry results, heavy metal assays, and EC electrical conductivity curves for KEXCO® shipments.
             </p>
             <div className="flex flex-wrap gap-4 font-mono text-xs pt-2">
               <div className="flex items-center gap-1.5 text-gray-300">
@@ -141,7 +141,7 @@ export const QualityCertifications: React.FC<QualityCertificationsProps> = ({ on
             <button
               onClick={() => {
                 sound.playClick();
-                alert('Downloading TERRACOCO Batch Lab Certificate PDF (Simulated)...');
+                alert('Downloading KEXCO® Batch Lab Certificate PDF (Simulated)...');
               }}
               className="w-full py-3 rounded-xl bg-space-850 border border-white/15 text-gray-300 font-mono text-xs font-bold uppercase hover:text-white hover:border-white/30 transition-all flex items-center justify-center gap-2"
             >

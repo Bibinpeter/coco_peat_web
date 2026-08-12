@@ -23,20 +23,20 @@ interface Product {
 
 const PRODUCTS: Product[] = [
   {
-    id: 'terra-block-5kg',
-    name: 'TERRA-BLOCK™ 5KG',
+    id: 'kexco-block-5kg',
+    name: 'KEXCO-BLOCK™ 5KG',
     subtitle: 'Triple-Washed Compressed 5kg Block',
     category: 'blocks',
     image: '/images/hero_block.jpg',
     expansion: '1:15 Ratio (75L)',
     ec: '< 0.5 mS/cm',
     ph: '5.5 – 6.5',
-    tags: ['COMMERCIAL', 'OMRI LISTED', 'TRIPLE WASHED', '75L YIELD'],
-    description: 'High-density compressed coconut coir peat brick desalted with fresh mountain water. Formulated for zero sodium toxicity and maximum cation exchange capacity.'
+    tags: ['COMMERCIAL', 'OMRI LISTED', 'KERALA EXPORT', '75L YIELD'],
+    description: 'High-density compressed coconut coir peat brick desalted with fresh mountain water in Kerala processing units. Formulated for zero sodium toxicity.'
   },
   {
-    id: 'hydro-bag-open',
-    name: 'HYDRO-BAG™ PRO',
+    id: 'kexco-bag-open',
+    name: 'KEXCO-BAG™ PRO',
     subtitle: 'Dual-Layer Open Top Grow Bag',
     category: 'growbags',
     image: '/images/grow_bag.jpg',
@@ -44,11 +44,11 @@ const PRODUCTS: Product[] = [
     ec: '< 0.4 mS/cm',
     ph: '5.8 – 6.2',
     tags: ['HYDROPONICS', 'BERRIES & TOMATOES', 'UV PROTECTED', 'AUTOMATED DRIP'],
-    description: 'Pre-treated UV-stabilized polyethylene grow bag with bottom drainage slits. Coarse coir chip bottom layer for drainage + fine peat top layer for root anchorage.'
+    description: 'Pre-treated UV-stabilized polyethylene grow bag with bottom drainage slits. Coarse Kerala coir chip bottom layer for drainage + fine peat top layer.'
   },
   {
-    id: 'coco-disc-pellets',
-    name: 'COCO-DISC™ STARTER',
+    id: 'kexco-disc-pellets',
+    name: 'KEXCO-DISC™ STARTER',
     subtitle: 'Compressed Seedling & Microgreen Discs',
     category: 'discs',
     image: '/images/coco_discs.jpg',
@@ -56,11 +56,11 @@ const PRODUCTS: Product[] = [
     ec: '< 0.3 mS/cm',
     ph: '5.6 – 6.0',
     tags: ['MICROGREENS', 'CAL-MAG BUFFERED', 'ZERO MOLD', 'RAPID ROOT'],
-    description: 'Precision-measured compressed coir discs buffered with Calcium Nitrate. Ideal for automated seeding trays, propagation, and urban microgreen farms.'
+    description: 'Precision-measured compressed coir discs buffered with Calcium Nitrate. Ideal for automated seeding trays, propagation, and urban microgreens.'
   },
   {
-    id: 'hydrated-coir-loose',
-    name: 'NUTRILOCK™ BIO-MIX',
+    id: 'kexco-coir-loose',
+    name: 'KEXCO NUTRILOCK™ BIO-MIX',
     subtitle: 'Pre-Buffered Biochar Infused Substrate',
     category: 'blocks',
     image: '/images/hydrated_coir.jpg',
@@ -68,7 +68,7 @@ const PRODUCTS: Product[] = [
     ec: '< 0.6 mS/cm',
     ph: '6.0 – 6.5',
     tags: ['MYCORRHIZAE', 'BIOCHAR ENRICHED', 'PRE-BUFFERED', 'HIGH YIELD'],
-    description: 'Activated biochar blended with coconut coir pith and endo-mycorrhizae fungi to lock in beneficial microbes and retain NPK nutrients up to 3x longer.'
+    description: 'Activated biochar blended with Kerala coconut coir pith and endo-mycorrhizae fungi to lock in beneficial microbes and retain NPK nutrients.'
   }
 ];
 
@@ -88,10 +88,10 @@ export const ProductGrid: React.FC<ProductGridProps> = ({ onOpenSpecs, onOpenQuo
           <div>
             <div className="flex items-center gap-2 font-mono text-xs text-emerald-400 uppercase tracking-widest mb-2 sm:mb-3">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-              <span>Bio-Engineered Catalog [v4.2]</span>
+              <span>KEXCO® Export Catalog [v4.2]</span>
             </div>
             <h2 className="text-3xl sm:text-6xl font-extrabold text-white tracking-tight">
-              Precision Coir <span className="reveal-text italic font-serif">Substrates®</span>
+              Kerala Export <span className="reveal-text italic font-serif">Substrates®</span>
             </h2>
           </div>
 
@@ -247,7 +247,7 @@ export const ProductGrid: React.FC<ProductGridProps> = ({ onOpenSpecs, onOpenQuo
             </div>
             <div>
               <h4 className="text-base sm:text-lg font-bold text-white">Need Custom EC, Mesh Size or Buffer Ratio?</h4>
-              <p className="text-xs text-gray-400 font-mono">Our R&amp;D lab custom-blends coir ratios for specific greenhouse crops.</p>
+              <p className="text-xs text-gray-400 font-mono">KEXCO® R&amp;D lab in Kerala custom-blends coir ratios for specific greenhouse crops.</p>
             </div>
           </div>
           <button

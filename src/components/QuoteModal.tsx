@@ -59,7 +59,7 @@ export const QuoteModal: React.FC<QuoteModalProps> = ({ isOpen, onClose }) => {
                 <span>Direct Container &amp; Sample Ordering</span>
               </div>
               <h3 className="text-2xl font-bold text-white">
-                Request TERRACOCO® Bulk Quote
+                Request KEXCO® Bulk Container Quote
               </h3>
               <p className="text-xs text-gray-400 font-mono">
                 FOB &amp; CIF Shipping worldwide. Samples dispatched within 48 hours via DHL Express.

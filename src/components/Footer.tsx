@@ -20,14 +20,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuote, onOpenSpecs, onCurs
         {/* Produx Oversized Branding Section */}
         <div className="border-b border-white/10 pb-16 mb-16">
           <span className="font-mono text-xs text-coir-gold block uppercase tracking-widest mb-4">
-            • TERRACOCO GLOBAL BIO-SUBSTRATES
+            • KEXCO® — KERALA EXPORTING COMPANY
           </span>
           <h2 className="text-5xl sm:text-7xl lg:text-9xl font-extrabold text-white tracking-tighter leading-none mb-8">
-            TERRACOCO<span className="text-emerald-400 font-mono text-4xl sm:text-6xl">®</span>
+            KEXCO<span className="text-emerald-400 font-mono text-4xl sm:text-6xl">®</span>
           </h2>
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
             <p className="text-gray-400 font-mono text-xs max-w-xl">
-              Strategy-led organic coconut coir processing. We supply commercial hydroponic greenhouses, vertical farms, and soil distributors across 45+ countries.
+              <strong className="text-white">KEXCO (Kerala Exporting Company)</strong> leads organic coconut coir processing from Kerala, India. We supply commercial hydroponic greenhouses, vertical farms, and soil distributors across 45+ countries.
             </p>
             <button
               onClick={() => {
@@ -52,38 +52,38 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuote, onOpenSpecs, onCurs
           
           {/* Col 1 */}
           <div className="space-y-3">
-            <span className="text-white font-bold block uppercase tracking-wider">Rotterdam Hub (EU)</span>
+            <span className="text-white font-bold block uppercase tracking-wider">Kerala Export HQ (India)</span>
             <p className="text-gray-400">
-              Havenstraat 142, Harbor Zone 4<br />
-              3011 AB Rotterdam, Netherlands
+              KEXCO Industrial Zone, Coir Highway<br />
+              Alappuzha - Kochi Belt, Kerala, India
             </p>
-            <span className="text-emerald-400 block">+31 (0) 10 892 4410</span>
+            <span className="text-emerald-400 block">+91 (484) KEXCO-COIR</span>
           </div>
 
           {/* Col 2 */}
           <div className="space-y-3">
-            <span className="text-white font-bold block uppercase tracking-wider">Processing Mills (Asia)</span>
+            <span className="text-white font-bold block uppercase tracking-wider">Rotterdam Hub (EU)</span>
             <p className="text-gray-400">
-              Coconut Triangle Industrial Zone<br />
-              Negombo-Kurunegala Highway, Sri Lanka
+              Havenstraat 142, Harbor Zone 4<br />
+              3011 AB Rotterdam, Netherlands
             </p>
             <span className="text-coir-gold block">ISO 9001:2015 Plant #04</span>
           </div>
 
           {/* Col 3 */}
           <div className="space-y-3">
-            <span className="text-white font-bold block uppercase tracking-wider">Americas HQ</span>
+            <span className="text-white font-bold block uppercase tracking-wider">Americas Desk</span>
             <p className="text-gray-400">
               500 Montgomery Street, Suite 400<br />
               San Francisco, CA 94111, USA
             </p>
-            <span className="text-blue-400 block">+1 (800) 550-COCO</span>
+            <span className="text-blue-400 block">+1 (800) 550-KEXCO</span>
           </div>
 
           {/* Col 4 */}
           <div className="space-y-3">
             <span className="text-white font-bold block uppercase tracking-wider">Export Directives</span>
-            <a href="#products" className="text-gray-400 hover:text-emerald-400 block">5kg TERRA-BLOCK™ Specs</a>
+            <a href="#products" className="text-gray-400 hover:text-emerald-400 block">5kg KEXCO-BLOCK™ Specs</a>
             <a href="#hydration" className="text-gray-400 hover:text-emerald-400 block">3D Hydration Simulator</a>
             <button onClick={onOpenSpecs} className="text-gray-400 hover:text-emerald-400 block text-left">
               ISO/OMRI Test Certificates
@@ -96,7 +96,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenQuote, onOpenSpecs, onCurs
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 font-mono text-[11px] text-gray-500">
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-400" />
-            <span>TERRACOCO® BIO-SUBSTRATES © 2026. ALL RIGHTS RESERVED.</span>
+            <span>KEXCO® (KERALA EXPORTING COMPANY) © 2026. ALL RIGHTS RESERVED.</span>
           </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-gray-300">Privacy Protocol</a>

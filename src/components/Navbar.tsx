@@ -31,8 +31,12 @@ export const Navbar: React.FC<NavbarProps> = ({
       {/* Top Produx-Style Marquee Ticker */}
       <div className="bg-[#0e1117] border-b border-white/5 py-1.5 overflow-hidden text-[10px] sm:text-[11px] font-mono text-gray-400">
         <div className="flex whitespace-nowrap animate-marquee">
-          <span className="mx-4 sm:mx-6 flex items-center gap-2">
+          <span className="mx-4 sm:mx-6 flex items-center gap-2 text-emerald-400 font-bold">
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+            KEXCO® (KERALA EXPORTING COMPANY)
+          </span>
+          <span className="mx-2 sm:mx-6 text-gray-600">•</span>
+          <span className="mx-4 sm:mx-6 flex items-center gap-2">
             EC LEVEL &lt; 0.5 mS/cm (TRIPLE WASHED)
           </span>
           <span className="mx-2 sm:mx-6 text-gray-600">•</span>
@@ -53,9 +57,9 @@ export const Navbar: React.FC<NavbarProps> = ({
           </span>
           <span className="mx-2 sm:mx-6 text-gray-600">•</span>
           {/* Duplicate for seamless infinite loop */}
-          <span className="mx-4 sm:mx-6 flex items-center gap-2">
+          <span className="mx-4 sm:mx-6 flex items-center gap-2 text-emerald-400 font-bold">
             <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-            EC LEVEL &lt; 0.5 mS/cm (TRIPLE WASHED)
+            KEXCO® (KERALA EXPORTING COMPANY)
           </span>
           <span className="mx-2 sm:mx-6 text-gray-600">•</span>
           <span className="mx-4 sm:mx-6 flex items-center gap-2 text-coir-gold">
@@ -72,7 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           className="flex items-center gap-2 group"
           onMouseEnter={() => {
             sound.playHover();
-            onCursorChange('HOME');
+            onCursorChange('KEXCO HOME');
           }}
           onMouseLeave={() => onCursorChange('')}
         >
@@ -81,10 +85,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           </div>
           <div className="flex flex-col">
             <span className="font-sans text-base sm:text-lg font-extrabold tracking-tight text-white flex items-center gap-1">
-              TERRACOCO<span className="text-emerald-400 font-mono text-[10px] sm:text-xs">®</span>
+              KEXCO<span className="text-emerald-400 font-mono text-[10px] sm:text-xs">®</span>
             </span>
             <span className="text-[9px] sm:text-[10px] font-mono text-gray-400 tracking-widest uppercase">
-              BIO-SUBSTRATES
+              KERALA EXPORTING CO.
             </span>
           </div>
         </a>

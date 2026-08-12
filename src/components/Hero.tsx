@@ -19,13 +19,13 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenSpecs, onCursorCh
         
         {/* Top Badges Line */}
         <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-6 sm:mb-8 text-[11px] sm:text-xs font-mono">
-          <div className="px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center gap-1.5">
+          <div className="px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center gap-1.5 font-bold">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-            <span>TERRA-TECH v4.2 RELEASED</span>
+            <span>KEXCO® EXPORT EDITION</span>
           </div>
           <div className="px-3 py-1 rounded-full bg-space-850 border border-white/10 text-gray-400 flex items-center gap-1.5">
             <ShieldCheck className="w-3.5 h-3.5 text-coir-gold" />
-            <span>OMRI LISTED</span>
+            <span>KERALA EXPORTING CO.</span>
           </div>
           <div className="px-3 py-1 rounded-full bg-space-850 border border-white/10 text-gray-400 flex items-center gap-1.5">
             <Droplets className="w-3.5 h-3.5 text-blue-400" />
@@ -44,7 +44,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenSpecs, onCursorCh
           </div>
           <div className="lg:col-span-4 space-y-5 sm:space-y-6">
             <p className="text-sm sm:text-lg text-gray-400 font-sans leading-relaxed">
-              TERRACOCO® engineers high-expansion, low-EC organic coconut coir substrates tailored for precision hydroponics, greenhouses, and commercial vertical farms worldwide.
+              <strong className="text-white">KEXCO® (Kerala Exporting Company)</strong> engineers high-expansion, low-EC organic coconut coir substrates harvested from the lush coconut belts of Kerala and processed for precision hydroponics worldwide.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2">
               <button
@@ -55,7 +55,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenSpecs, onCursorCh
                 className="w-full sm:w-auto px-6 py-3.5 rounded-xl bg-emerald-500 text-black font-mono text-xs font-bold uppercase tracking-wider hover:bg-emerald-400 transition-all duration-300 shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2"
                 onMouseEnter={() => {
                   sound.playHover();
-                  onCursorChange('ORDER 📦');
+                  onCursorChange('ORDER KEXCO 📦');
                 }}
                 onMouseLeave={() => onCursorChange('')}
               >
@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenSpecs, onCursorCh
             {/* Hero Image */}
             <img
               src="/images/hero_block.jpg"
-              alt="TERRACOCO 5kg Compressed Cocopeat Block"
+              alt="KEXCO 5kg Compressed Cocopeat Block"
               className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
             {/* Dark vignette overlay */}
@@ -98,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenSpecs, onCursorCh
             <div className="absolute top-3 left-3 right-3 sm:top-6 sm:left-6 sm:right-6 flex justify-between items-start">
               <div className="bg-space-900/90 backdrop-blur-md border border-white/10 px-2.5 py-1.5 sm:px-4 sm:py-2 rounded-lg font-mono text-[10px] sm:text-xs text-gray-300 flex items-center gap-1.5">
                 <Layers className="w-3.5 h-3.5 text-coir-amber" />
-                <span>TERRA-BLOCK 5KG</span>
+                <span>KEXCO-BLOCK 5KG</span>
               </div>
               <div className="bg-emerald-500/90 text-black backdrop-blur-md px-2.5 py-1 sm:px-3 sm:py-1.5 rounded-lg font-mono text-[10px] sm:text-xs font-bold">
                 1:15 EXPANSION
@@ -146,8 +146,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenQuote, onOpenSpecs, onCursorCh
           </div>
           <div className="space-y-1">
             <span className="font-mono text-2xl sm:text-4xl font-extrabold text-white">100%</span>
-            <span className="block font-mono text-[10px] sm:text-xs text-gray-400 uppercase tracking-wider">Biodegradable</span>
-            <p className="text-[11px] sm:text-xs text-gray-500">Organic peat moss replacement.</p>
+            <span className="block font-mono text-[10px] sm:text-xs text-gray-400 uppercase tracking-wider">Kerala Harvested</span>
+            <p className="text-[11px] sm:text-xs text-gray-500">Pure organic coir from Kerala husk belt.</p>
           </div>
         </div>
 
